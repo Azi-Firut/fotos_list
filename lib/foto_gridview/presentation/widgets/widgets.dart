@@ -4,18 +4,9 @@ import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'data.dart';
-import 'detail_screen.dart';
-import 'func.dart';
-
-// class FutureBuilderWidget extends StatefulWidget {
-//   FutureBuilderWidget({
-//     Key? key,
-//   }) : super(key: key);
-//
-//   @override
-//   State<StatefulWidget> createState() => _FutureBuilderWidgetState();
-// }
+import '../../data/data_sources/item_data.dart';
+import '../pages/detail_screen.dart';
+import '../../domain/entities/func.dart';
 
 class FutureBuilderWidget extends StatefulWidget {
   FutureBuilderWidget({
@@ -27,14 +18,6 @@ class FutureBuilderWidget extends StatefulWidget {
 }
 
 class _FutureBuilderWidgetState extends State<FutureBuilderWidget> {
-  //late Future<List<FotoData>> fotoList;
-
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   getFoto();
-  // }
-
   @override
   Widget build(BuildContext context) {
     return FutureBuilder<List<FotoData>>(

@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:developer';
-import 'data.dart';
+import '../../data/data_sources/item_data.dart';
 import 'package:http/http.dart' as http;
 
 void timer() {
