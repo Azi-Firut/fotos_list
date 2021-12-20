@@ -1,16 +1,12 @@
-# fotos
+## to_do_app
 
-A new Flutter project.
+REST API , GridView, Hero Animation, FutureBuilder, GridView.
 
-## Getting Started
+## used libraries:
 
-This project is a starting point for a Flutter application.
+  http: ^0.13.4
+  
+## demo:
 
-A few resources to get you started if this is your first Flutter project:
+![screenshot of sample](https://github.com/Zifirut/to_do_app/blob/master/video_3.gif)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
