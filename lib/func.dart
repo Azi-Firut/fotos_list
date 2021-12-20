@@ -10,12 +10,10 @@ void timer() {
 }
 
 Future<List<FotoData>> getFoto() async {
-  timer();
   final response = await http.get(
     Uri.parse('https://608bd4239f42b20017c3cee6.mockapi.io/photos'),
-    // Uri.parse('https://www.googleapis.com/books/v1/volumes/'),
   );
-  timer();
+
   if (response.statusCode == 200) {
     Iterable list = json.decode(response.body);
     var items = list.map((item) => FotoData.fromMap(item)).toList();

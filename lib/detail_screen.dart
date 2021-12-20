@@ -7,13 +7,12 @@ void main() {
 }
 
 class Detail extends StatelessWidget {
-  var title;
+  const Detail({Key? key, required this.photo, required this.title})
+      : super(key: key);
 
-  var photo;
+  final title;
+  final photo;
 
-  Detail(this.photo, this.title, {Key? key}) : super(key: key);
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

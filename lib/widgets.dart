@@ -78,8 +78,9 @@ class _FutureBuilderWidgetState extends State<FutureBuilderWidget> {
                                 context,
                                 CupertinoPageRoute(
                                     builder: (context) => Detail(
-                                        targetFotoData.photo,
-                                        targetFotoData.title)));
+                                          title: targetFotoData.title,
+                                          photo: targetFotoData.photo,
+                                        )));
                           },
                           child: Hero(
                             tag: targetFotoData.title,
