@@ -8,5 +8,5 @@ REST API , GridView, Hero Animation, FutureBuilder, GridView.
   
 ## demo:
 
-![screenshot of sample](https://github.com/Zifirut/to_do_app/blob/master/video_3.gif)
+![screenshot of sample](https://github.com/Zifirut/fotos_list/blob/master/video.gif)
 
